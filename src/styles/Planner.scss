@@ -1,0 +1,34 @@
+.Planner {
+  height: 100%;
+  width: 90%;
+  margin: 20px auto;
+}
+
+.day {
+  margin: 35px auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 90%;
+}
+
+.maintMenu {
+  display: flex;
+  flex-direction: column;
+  padding: 0.5rem;
+  width: 60%;
+  margin: 0 auto;
+}
+
+.maintButton {
+  margin: 10px 0;
+}
+
+.mealList {
+  padding: 0;
+}
+
+.dayButton {
+  position: relative;
+  top: 16px;
+}

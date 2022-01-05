@@ -3,26 +3,23 @@
 import React from "react";
 
 /* Stylesheet Imports */
-import "./styles/App.scss";
+import "../styles/Timers.scss";
 
 /* Image Imports */
 
 /* Component Imports */
-import Planner from "./components/Planner";
-import Timers from "./components/Timers";
 
 /* Component Interfaces */
 
 /* Component/Functions */
-const App = () => {
+const Timers = () => {
   //Function return statement
   return (
-    <div className="App">
-      <Planner />
-      <Timers />
+    <div className="Timers">
+      <h1>Timers</h1>
     </div>
   );
 };
 
 /* Export Statement */
-export default App;
+export default Timers;
